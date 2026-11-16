@@ -4,36 +4,32 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="Farmacia Salud Vital">
-<meta name="description" content="Farmacia Salud Vital: medicamentos, vitaminas, material de curación y atención farmacéutica en Puebla, con entrega a domicilio.">
-<meta name="keywords" content="farmacia, medicamentos, genéricos, vitaminas, botiquín, presión arterial, entrega a domicilio, Puebla">
+<meta name="description" content="Farmacia con medicamentos, vitaminas y entrega a domicilio en Puebla">
+<meta name="keywords" content="farmacia, medicamentos, genericos, vitaminas, botiquin, presion, entrega a domicilio">
 <title>Farmacia Salud Vital</title>
-<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="img/favicon.svg">
 <link rel="stylesheet" href="css/estilo1.css">
 </head>
+<!-- pagina de la farmacia: header, nav, secciones y footer -->
 <body>
+
 <header>
-<nav class="barra">
-<a href="#" class="marca"><img src="img/logo-cruz.svg" alt="">Salud Vital</a>
-<div class="enlaces">
+<nav>
 <a href="#">Inicio</a>
 <a href="#Acerca">Nosotros</a>
 <a href="#porta">Productos</a>
 <a href="#servicios">Servicios</a>
 <a href="#contacto">Contacto</a>
-</div>
 </nav>
 <section class="textos-header">
-<span class="etiqueta">Abierto las 24 horas, los 365 días</span>
+<img class="logo" src="img/logo-cruz.svg" alt="logo">
 <h1>Farmacia Salud Vital</h1>
-<h2>Tu salud, nuestra prioridad</h2>
-<a class="boton" href="#contacto">Haz tu pedido</a>
+<h2>Tu salud es lo mas importante</h2>
 </section>
-<div class="wave">
-<svg viewBox="0 0 500 150" preserveAspectRatio="none">
-<path d="M0.00,49.98 C187.63,143.59 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"></path>
+<!-- la ola la saque de una pagina de olas svg -->
+<div style="height: 150px; overflow: hidden;">
+<svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+<path d="M0.00,49.98 C187.63,143.59 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #ffffff;"></path>
 </svg>
 </div>
 </header>
@@ -41,73 +37,83 @@
 <main>
 
 <section id="Acerca" class="contenedor sobre-nosotros">
-<h2 class="titulo">Somos una farmacia familiar orgullosamente mexicana con más de 30 años cuidando la salud de tu familia</h2>
+<h2 class="titulo">Somos una farmacia familiar mexicana con mas de 30 años cuidando la salud de las familias</h2>
 <div class="contenedor-sobre-nosotros">
-<img class="imagen-acercade" src="img/equipo-farmaceutico.jpg" alt="Equipo de farmacéuticos con bata blanca detrás del mostrador">
+<img class="imagen-acercade" src="img/equipo-farmaceutico.jpg" alt="nuestro equipo">
 <div class="contenido-textos">
 <h3><span>1</span>MISIÓN</h3>
-<p>Brindar medicamentos de calidad a precios justos, con una atención farmacéutica cercana y responsable que ayude a cada persona a cuidar su salud.</p>
+<p>Dar medicamentos de calidad a buen precio y atender a cada cliente con amabilidad y responsabilidad.</p>
 <h3><span>2</span>VISIÓN</h3>
-<p>Ser la farmacia de confianza de las familias poblanas, reconocida por su surtido completo, su asesoría profesional y su excelente servicio.</p>
+<p>Ser la farmacia de confianza de las familias de Puebla por nuestro buen surtido y excelente servicio.</p>
 </div>
 </div>
 </section>
 
 <section id="porta" class="portafolio">
 <div class="contenedor">
-<h2 class="titulo">Nuestros productos</h2>
+<h2 class="titulo">Productos</h2>
 <div class="galeria-port">
+
 <div class="imagen-port">
-<img src="img/medicamentos.jpg" alt="Tabletas y cápsulas de colores">
-<div class="hover-galeria"><p>Medicamentos de patente y genéricos</p></div>
+<img src="img/medicamentos.jpg" alt="medicamentos">
+<p>Medicamentos</p>
 </div>
+
 <div class="imagen-port">
-<img src="img/presion-arterial.jpg" alt="Toma de presión arterial">
-<div class="hover-galeria"><p>Toma de presión arterial</p></div>
+<img src="img/presion-arterial.jpg" alt="presion">
+<p>Toma de presión</p>
 </div>
+
 <div class="imagen-port">
-<img src="img/capsulas.jpg" alt="Frasco con cápsulas y blísteres">
-<div class="hover-galeria"><p>Cápsulas y tratamientos</p></div>
+<img src="img/capsulas.jpg" alt="capsulas">
+<p>Cápsulas</p>
 </div>
+
 <div class="imagen-port">
-<img src="img/estetoscopio.jpg" alt="Estetoscopio">
-<div class="hover-galeria"><p>Equipo médico</p></div>
+<img src="img/estetoscopio.jpg" alt="estetoscopio">
+<p>Equipo médico</p>
 </div>
+
 <div class="imagen-port">
-<img src="img/termometro.jpg" alt="Termómetro digital">
-<div class="hover-galeria"><p>Termómetros y diagnóstico</p></div>
+<img src="img/termometro.jpg" alt="termometro">
+<p>Termómetros</p>
 </div>
+
 <div class="imagen-port">
-<img src="img/botiquin.jpg" alt="Botiquín de primeros auxilios">
-<div class="hover-galeria"><p>Botiquines de primeros auxilios</p></div>
+<img src="img/botiquin.jpg" alt="botiquin">
+<p>Botiquines</p>
 </div>
+
 <div class="imagen-port">
-<img src="img/vitaminas.jpg" alt="Tabletas de vitaminas">
-<div class="hover-galeria"><p>Vitaminas y suplementos</p></div>
+<img src="img/vitaminas.jpg" alt="vitaminas">
+<p>Vitaminas</p>
 </div>
+
 <div class="imagen-port">
-<img src="img/tratamiento.jpg" alt="Manos sosteniendo un blíster de pastillas">
-<div class="hover-galeria"><p>Seguimiento de tu tratamiento</p></div>
+<img src="img/tratamiento.jpg" alt="pastillas">
+<p>Tratamientos</p>
 </div>
+
 </div>
 </div>
 </section>
+</main>
 
 <section class="clientes contenedor">
-<h2 class="titulo">Opinión de nuestros clientes</h2>
+<h2 class="titulo">Opinión de los clientes</h2>
 <div class="cards">
 <div class="card">
 <img src="img/avatar-hombre.svg" alt="">
 <div class="contenido-texto-card">
 <h4>Aaron Tolentino</h4>
-<p>Siempre encuentro mis medicamentos al mejor precio y con una atención muy amable.</p>
+<p>Los mejores precios en medicamentos</p>
 </div>
 </div>
 <div class="card">
 <img src="img/avatar-mujer.svg" alt="">
 <div class="contenido-texto-card">
 <h4>Brisa Robledo</h4>
-<p>Mi farmacia de confianza: me asesoran muy bien y el pedido llega rapidísimo a casa.</p>
+<p>Muy buena atención y siempre tienen lo que busco</p>
 </div>
 </div>
 </div>
@@ -120,28 +126,26 @@
 <div class="servicio-ind">
 <img src="img/icono-whatsapp.svg" alt="">
 <h3>Pedidos por WhatsApp</h3>
-<p>Envíanos tu receta o la lista de lo que necesitas desde tu celular y te confirmamos existencia y precio.</p>
+<p>Mandanos tu receta desde tu celular</p>
 </div>
 <div class="servicio-ind">
 <img src="img/icono-asesoria.svg" alt="">
-<h3>Asesoría farmacéutica</h3>
-<p>Resolvemos tus dudas sobre dosis, horarios e interacciones de tus medicamentos.</p>
+<h3>Te asesoramos</h3>
+<p>Resolvemos tus dudas sobre tus medicamentos</p>
 </div>
 <div class="servicio-ind">
 <img src="img/icono-domicilio.svg" alt="">
 <h3>Entrega a domicilio</h3>
-<p>Llevamos tus medicamentos a cualquier zona de la ciudad, rápido y seguro.</p>
+<p>A cualquier zona de la ciudad</p>
 </div>
 </div>
 </div>
 </section>
 
-</main>
-
 <footer id="contacto">
 <div class="contenedor-footer">
 <div class="content-foo">
-<h4>Teléfono / WhatsApp</h4>
+<h4>Teléfono</h4>
 <p>22 13 49 15 67</p>
 </div>
 <div class="content-foo">
@@ -150,11 +154,11 @@
 </div>
 <div class="content-foo">
 <h4>Dirección</h4>
-<p>Calle 36 Norte 1600, Cristóbal Colón, Puebla, México, 72330</p>
+<p>Calle 36 Norte 1600, Cristobal Colón, Puebla, México, 72330</p>
 </div>
 </div>
 <h2 class="titulo-final">&copy; Farmacia Salud Vital</h2>
-<p class="creditos">Fotografías: Wikimedia Commons (<a href="creditos.html">ver créditos y licencias</a>)</p>
+<p class="creditos">Fotos de Wikimedia Commons - <a href="creditos.html">créditos</a></p>
 </footer>
 
 </body>
